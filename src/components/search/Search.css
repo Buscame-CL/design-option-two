@@ -1,0 +1,29 @@
+.search-input {
+  padding: 0.1rem 1rem;
+  width: 39vw;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.search-input input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  color: white;
+  border: none;
+  font-size: medium;
+  background-color: transparent;
+}
+
+.search-input input:focus {
+  outline-width: 0;
+  opacity: 1;
+}
+
+.search-icon {
+  color: white;
+}
+
+
+.buttons-hidden {
+  display: none !important;
+}
